@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markus Stuefer - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Markus Stuefer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Über mich</h2>
+            <p>Ich bin ein IT-Systemmanager und Entwickler mit Erfahrung in der Softwareentwicklung, Datenanalyse und IT-Management. Ich habe an verschiedenen Projekten gearbeitet, darunter das "snakejs"-Projekt auf GitHub.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projekte</h2>
+            <div class="project-item">
+                <h3>snakejs</h3>
+                <p>Ein einfaches Browser-Spiel entwickelt in JavaScript. <a href="https://github.com/markus-stuefer/snakejs" target="_blank">Mehr erfahren</a></p>
+            </div>
+            <div class="project-item">
+                <h3>E-Commerce-Datenanalyse</h3>
+                <p>Analyse von Verkaufsdaten und Erstellung von Dashboards zur Entscheidungsunterstützung. <a href="https://github.com/markus-stuefer/ecommerce-analysis" target="_blank">Mehr erfahren</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <p>Sie können mich über die folgenden Kanäle erreichen:</p>
+            <ul>
+                <li>E-Mail: <a href="mailto:markus@example.com">markus@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/markus-stuefer" target="_blank">Markus Stuefer</a></li>
+                <li>GitHub: <a href="https://github.com/markus-stuefer" target="_blank">Markus Stuefer</a></li>
+                <li>Telegram: <a href="https://t.me/markusc2f" target="_blank">Telegram Kanal</a></li>
+            </ul>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Senden</button>
+            </form>
+            <p id="formResponse"></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Markus Stuefer. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
